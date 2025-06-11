@@ -87,4 +87,16 @@ The system continuously monitors release branches, automatically generates compr
 ├── gpt_prompts/                 # Custom prompt templates
 ├── dashboards/streamlit_app.py  # UI for SNOW lifecycle
 └── config.yaml                  # Team-specific SNOW rules
+
+# **SNOWPILOT AI AGENT**  
+**Problem:**  
+"Devs hate manual SNOW tickets."  
+
+**Solution:**  
+- PR merged? → SNOW auto-created.  
+- Zero config. Zero risk.  
+
+**Impact:**  
+- 15+ mins saved per ticket  
+- 100% PR-to-SNOW traceability  
 ```
