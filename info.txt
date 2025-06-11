@@ -1,0 +1,93 @@
+Title
+“WHY SPEND DEVELOPER TIME ON MANAGING SNOW?
+
+Let AI do the paperwork — you focus on prod.”
+
+Abstract
+Developers are burdened with the repetitive, time-consuming tasks of change management — creating SNOWs, writing descriptions, collecting evidence, and following up for multiple levels of approval. These are all critical for governance, but they shouldn’t be bottlenecks to productivity or resiliency.
+
+This is where my project steps in — an AI-powered Change Management Agent that automates and augments the SNOW lifecycle using the power of LLMs. The agent is trained across four key implementation tasks — creation, promotion, documentation, and closure. It learns from historical SNOW tickets and Bitbucket peer review content, enabling it to:
+
+Auto-create SNOW requests from PR titles and descriptions.
+Attach release evidence, and business approval emails.
+Follow up intelligently for tech and production management approvals.
+Provide immediate feedback if a SNOW is rejected — including reason summarization and action steps.
+When developers are free from bureaucracy, they write better code, catch more issues, and ship safer releases.
+This agent is a teammate, not a tool — and it makes change delivery resilient by default.
+
+Content Tracks
+How to fine-tune GPT on your SNOW + PR corpus
+Bitbucket + SNOW + Outlook integrations
+Handling missing context, bad metadata
+Escalation rules for follow-up
+Notification routing (Slack, Email)
+Extending to other systems (Jira)
+Measured impact:
+
+Metric
+
+Manual Workflow
+
+With AI Agent
+
+Improvement
+
+SNOW creation time
+
+20–30 mins
+
+
+
+
+
+Approval turnaround
+
+6–12 hrs
+
+
+
+
+
+Developer context switches
+
+3–5/day
+
+
+
+
+
+SNOW rejection resolution
+
+~2 days
+
+
+
+
+
+
+
+Benefits:
+
+🚀faster change cycles
+📊 Real-time dashboard
+💬 100% approval traceability
+🧘‍♀️ Resilient delivery, focused engineers
+Code Repo Plan (Project: snowpilot-ai)
+Structure:
+
+/snowpilot-ai
+
+├── bitbucket_listener.py        # Webhook for PRs
+
+├── snow_generator.py            #SNOW creation logic
+
+├── evidence_attacher.py         #Fetches logs & screenshots
+
+├── approval_notifier.py         # Sends follow-ups & rejections
+
+├── gpt_prompts/                 # Custom prompt templates
+
+ |── dashboards/streamlit_app.py  # UI for SNOW lifecycle
+
+|── config.yaml                  # Team-specific SNOW rules
+
