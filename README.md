@@ -36,3 +36,16 @@
 ```bash
 git clone https://github.com/gauribhardwaj/Snowpilot-AI.git
 cd Snowpilot-AI
+
+
+# **SNOWPILOT AI AGENT**  
+**Problem:**  
+"Devs hate manual SNOW tickets."  
+
+**Solution:**  
+- PR merged? → SNOW auto-created.  
+- Zero config. Zero risk.  
+
+**Impact:**  
+- 15+ mins saved per ticket  
+- 100% PR-to-SNOW traceability  
