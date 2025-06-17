@@ -1,0 +1,37 @@
+Patent Info :
+Title
+AI-Driven Change Management Agent for Automated ServiceNow Request Generation and Lifecycle Optimization
+internal title : Snowpilot AI Agent 
+Problem
+In software development, change management is essential for compliance, governance, and smooth deployment of updates. 
+However, developers are burdened with repetitive tasks such as creating and tracking ServiceNow (SNOW) change requests, writing descriptions, collecting evidence, and managing approvals. These tasks consume resources, reduce focus on core activities, and create workflow bottlenecks. The need to manually populate request details, track multiple tasks (implementation, peer review, testing, validation) and seek hierarchical approvals (from Application Developer Management, Business, and Production management) leads to frequent context switching, slowing down release cycles. Developers waste 18% of their week on SNOW paperwork.
+Solution
+
+🤖 Snowpilot AI steps in as an AI-powered Change Management Agent that automates and augments the SNOW lifecycle using the power of Large Language Models (LLMs). Trained across four key implementation tasks—creation, promotion, documentation, and closure—the agent learns from Bitbucket peer review content, enabling it to do the following :
+• GitHub/Bitbucket Integration (monitors PRs to release branches)
+• LLM-based PR analysis  (LLM Suite/Claude) summarizing PRs into SNOW descriptions.
+• ServiceNow(SNOW) API integration for automated SNOW creation and task management.
+• Automated Workflow Automation (handles Application Development, Production Management, and Business approvals)
+• Intelligent State Transition Logic from (moves SNOW from "New" → "Implement" → "Review")
+The system continuously monitors release branches, automatically generates comprehensive SNOW requests, and handles peer reviews and hierarchical approvals, including email-based business approvals and AD approval scheduling via calls. It intelligently manages delays and exceptions, enhancing workflow resiliency and reducing manual overhead.
+Edge Cases Handling 📌
+1. PR Rejected in Peer Review → Auto-close SNOW or mark as "Failed."
+2. Business Approval Delayed → Send reminders (via email/Teams).
+3. Emergency Changes → Allow manual override (skip some approvals).
+Measured Impact Metrics between Manual v/s Snowpilot  Workflow 📊
+1. SNOW creation time
+2. Approval turnaround    
+3. Developer context switches    
+4. SNOW rejection resolution
+End Goal 🎯 "PR merged? → SNOW auto-created."
+JPMC internal go link : go/snowpilot
+Advantages
+When developers are free from bureaucracy, they write better code, catch more issues, and ship safer releases. This agent is a teammate, not a tool, making change delivery resilient by default.
+
+Benefits: 
+1. Increased Productivity:  Automates repetitive tasks, allowing developers to focus on coding and innovation, leading to faster development cycles and improved software quality.
+2. Enhanced Resiliency:   Ensures robust and resilient change management processes, reducing the risk of errors and delays in software releases.
+3. Improved Governance:  Automated documentation and evidence attachment enhance compliance and governance, providing a clear audit trail for change requests.
+4. Real-time Feedback:  Immediate feedback on SNOW rejections allows for quick resolution and minimizes disruptions in the development workflow.
+5. Seamless Integration:  Integrates with existing platforms like Bitbucket, SNOW, and Outlook, ensuring a cohesive workflow and reducing fragmentation.
+6. Scalability:  Designed to scale and adapt to evolving project needs, with the ability to extend to other systems like Jira.
