@@ -20,29 +20,38 @@ AI Agent Automates Change Management—From PR to SNOW, Instantly
 •	Manages workflows: creation, documentation, approvals, closure
 •	Handles edge cases and state transitions, reduces manual steps
 •	End Goal: PR merged? SNOW auto-created. Approvals tracked.
-Slide 4: Implementation Plan
-Simple, Fast Rollout
-•	MVP: Bitbucket → ServiceNow, live in 2 weeks
-•	Scale: Add GitHub, Jira, Slack support, error logging (1 month)
-•	Enterprise: Air-gapped, app store, on-prem options (3 months)
-•	Phased rollout ensures fast feedback and low risk
-Slide 5: Tech Involved
-Modern, Modular, Resilient
-•	LLMs (e.g., GPT/Claude): Summarize and structure tickets
-•	Universal adapters: REST, SFTP, DB connectors for legacy support
-•	Agentic orchestration (e.g., Agentyx) for workflow automation
-•	Cloud or on-premises deployment (Kubernetes/Docker)
+
+slide 4
+How It Works: Agentic Architecture for Change Management
+
+- Listens for PR, Jira, build, or email triggers
+- Agentic orchestrator routes each event to “micro-agents”
+- LLM summarizer analyzes changes, generates ticket summaries
+- Universal adapters bridge REST, SFTP, DB, ServiceNow, Jira, BMC, mainframes
+- Auto-fills fields, attaches evidence, creates tasks
+- Tracks workflow states, manages exceptions, sends notifications
+- Cloud or on-prem deployment (K8s/Docker); all data stays secure
+
+Slide 5: Research & Impact
+matlab
+Copy
+Edit
+Quantified Gains: Developer Productivity and Compliance
+
+- 18% of developer time lost (industry benchmarks)
+- 92% faster ticket creation: 25 min (manual) → 2 min (AI)
+- 63% faster approvals: 8 hrs → 3 hrs
+- 88% fewer context switches per release
+- 89% reduction in ticket errors; 100% audit success in pilot simulation
+
 Slide 6: Future Scope & Q&A
+vbnet
+Copy
+Edit
 Scaling to Every Enterprise + Open Q&A
-•	Expand to SAP, mainframes, custom stacks
-•	Roll out to regulated industries (banking, pharma)
-•	Add compliance dashboards, ISV marketplace
-•	Ready to automate governance for your stack?
-•	(Open floor for questions, share impact chart or anecdote)
 
-2. idea 
-
-3. implementation / flow  plan 
-4. tech involved (mention agentyx and deployment to aws etc)
-5. future scope 
-6. QnA
+- Expand to SAP, mainframes, custom stacks
+- Industry focus: banking, pharma, regulated sectors
+- AI-driven compliance dashboards, ISV marketplace
+- Vision: Become “The Kubernetes of Change Management”
+- Ready to automate governance for your stack?
