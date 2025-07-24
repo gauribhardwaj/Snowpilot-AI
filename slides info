@@ -1,0 +1,48 @@
+Slide 1: Title
+Snowpilot AI (Patent-Pending)
+Any Trigger. Any Tool. One Agent.
+AI-Powered Change Management for Hybrid Enterprises
+
+Slide 2: Problem Statement
+Manual Change Management Drains Productivity and Delays Releases
+•	18% of a developer’s week lost to SNOW/Jira paperwork
+•	Each ticket takes 20–30 minutes to create and document
+•	Up to 12 hours spent waiting for approvals per release
+•	6+ fields, 2–3 documents, 4 task states to track per change
+•	Developers check SNOW/email 4–5 times daily for updates
+•	Result: Slower releases, more errors, less innovation
+(Add pie chart: 18% time lost to SNOW)
+Slide 3: The Idea
+AI Agent Automates Change Management—From PR to SNOW, Instantly
+•	Snowpilot AI: An AI-powered agent for end-to-end SNOW automation
+•	Listens for PR merges, Jira moves, or build triggers
+•	Summarizes, drafts, and files SNOW tickets automatically (LLM-powered)
+•	Manages workflows: creation, documentation, approvals, closure
+•	Handles edge cases and state transitions, reduces manual steps
+•	End Goal: PR merged? SNOW auto-created. Approvals tracked.
+Slide 4: Implementation Plan
+Simple, Fast Rollout
+•	MVP: Bitbucket → ServiceNow, live in 2 weeks
+•	Scale: Add GitHub, Jira, Slack support, error logging (1 month)
+•	Enterprise: Air-gapped, app store, on-prem options (3 months)
+•	Phased rollout ensures fast feedback and low risk
+Slide 5: Tech Involved
+Modern, Modular, Resilient
+•	LLMs (e.g., GPT/Claude): Summarize and structure tickets
+•	Universal adapters: REST, SFTP, DB connectors for legacy support
+•	Agentic orchestration (e.g., Agentyx) for workflow automation
+•	Cloud or on-premises deployment (Kubernetes/Docker)
+Slide 6: Future Scope & Q&A
+Scaling to Every Enterprise + Open Q&A
+•	Expand to SAP, mainframes, custom stacks
+•	Roll out to regulated industries (banking, pharma)
+•	Add compliance dashboards, ISV marketplace
+•	Ready to automate governance for your stack?
+•	(Open floor for questions, share impact chart or anecdote)
+
+2. idea 
+
+3. implementation / flow  plan 
+4. tech involved (mention agentyx and deployment to aws etc)
+5. future scope 
+6. QnA
